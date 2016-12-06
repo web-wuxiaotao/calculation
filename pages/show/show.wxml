@@ -1,0 +1,70 @@
+<view class="calculation">
+    <view class="title">
+        <view class="left" bindtap="action">
+            等额本息
+        </view>
+        <view class="right select">
+            等额本金
+        </view>
+    </view>
+    <view class="center">
+        <view class="month">
+            <view class="text">每月月供参考（元）</view>
+            <view class="num">{{monthPay}}</view>
+        </view>
+        <view class="decline">
+            <view class="text">每月递减（元）</view>
+            <view class="num">{{decline}}</view>
+        </view>
+    </view>
+    <view class="bottom">
+        <view class="interest">
+            <view class="text">支付利息（元）</view>
+            <view class="num">{{interest}}</view>
+        </view>
+        <view class="vertical"></view>
+        <view class="total">
+            <view class="text">还款总额（元）</view>
+            <view class="num">{{total}}</view>
+        </view>
+    </view>
+</view>
+<view class="r-details">
+    等额本金还款详情
+</view>
+<view class="lists">
+    <view class="list">
+        <view class="left">贷款类型</view>
+        <view class="right"  bindtap="loanType">
+            {{type}}
+            <view class="symbol">></view>
+        </view>
+        <view class="line"></view>
+    </view>
+
+    <view class="list">
+        <view class="left">贷款金额（万）</view>
+        <view class="right">
+            {{inputValue}}
+            <input type="text" bindinput="bindKeyInput" maxlength="4"/>
+        </view>
+        <view class="line"></view>
+    </view>
+
+    <view class="list">
+        <view class="left">期限（年）</view>
+        <view class="right" bindtap="term">
+            {{year}}
+            <view class="symbol">></view>
+        </view>
+        <view class="line"></view>
+    </view>
+    <view class="list">
+        <view class="left">利率（%）</view>
+        <view class="right" bindtap="interestRate">
+            {{rate}}
+            <view class="symbol">></view>
+        </view>
+    </view>
+</view>
+<view class="last">以上为央行2016年最新公布的贷款基准利率</view>

@@ -1,0 +1,155 @@
+/* pages/show/show.wxss */
+.calculation{
+    width:100%;
+    height:459rpx;
+    background:#0B8EE6;
+    font-family: "微软雅黑";
+}
+.calculation .title{
+    display: block;
+    height:58rpx;
+    width:553rpx;
+    border:2rpx solid #D2FFFF;
+    border-radius:15rpx;
+    position:absolute;
+    top:33px;
+    left:0;
+    right:0;
+    margin:auto;
+    overflow: hidden;
+}
+.calculation .title .left,.calculation .title .right{
+    width:50%;
+    height:100%;
+    float: left;
+    font-size:16px;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+}
+.calculation .title .select{
+    background:#FFFFFF;
+    color:#0490E8;
+}
+.calculation .center{
+    width:100%;
+    height:139rpx;
+    padding-top:83px;
+}
+.calculation .bottom{
+    width:100%;
+    height:139rpx;
+    margin-top:10rpx;
+    position:relative;
+}
+.calculation .vertical{
+    height:100rpx;
+    border-left:1px solid #ddd;
+    position:absolute;
+    top:0;
+    left:48%;
+}
+.calculation .center .month,.calculation .center .decline,.calculation .bottom .interest,.calculation .bottom .total{
+    width:45%;
+    height:100%;
+    float:left;
+}
+.calculation .center .month .text,.calculation .center .decline .text,.calculation .bottom .interest .text,.calculation .bottom .total .text{
+    font-size:15px;
+    color:#fff;
+    box-sizing:border-box;
+    padding-left:40rpx;
+}
+.calculation .center .month .num,.calculation .center .decline .num,.calculation .bottom .interest .num,.calculation .bottom .total .num{
+    font-size:30px;
+    color:#fff;
+    box-sizing:border-box;
+    padding-left:40rpx;
+    margin-top:15rpx;
+}
+.calculation .bottom .interest .text,.calculation .bottom .total .text{
+    margin-top:10rpx;
+}
+.calculation .bottom .interest .num,.calculation .bottom .total .num{
+    margin-top:8rpx;
+    font-size:18px;
+}
+.r-details{
+    width:100%;
+    height:75rpx;
+    background:#E9F4F6;
+    text-align:center;
+    line-height:40px;
+    color:#727C7D;
+    font-size:18px;
+    font-family:'微软雅黑';
+}
+.lists{
+    width:100%;
+    height:440rpx;
+    box-shadow:0 4rpx 4rpx #EFF2F1;
+}
+.lists .list{
+    height:110rpx;
+    width:100%;
+    position:relative;
+}
+.lists .list .left{
+    height:50rpx;
+    font-size:18px;
+    font-family:'微软雅黑';
+    position: absolute;
+    left:40rpx;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.lists .list .right{
+    height:50rpx;
+    font-size:18px;
+    font-family:'微软雅黑';
+    color:#676767;
+    position: absolute;
+    right:38rpx;
+    top:0;
+    bottom:0;
+    margin:auto;
+    padding-right:37rpx;
+}
+.lists .list .right .symbol{
+    height:50rpx;
+    font-size:18px;
+    font-family:'微软雅黑';
+    color:#B8B8B8;
+    position: absolute;
+    right:0rpx;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.lists .list .right input{
+    font-size:18px;
+    color:transparent;
+    font-family:'微软雅黑';
+    height:100%;
+    width:200rpx;
+    position:absolute;
+    top:0;
+    right:35rpx;
+}
+.lists .list .line{
+    height:2rpx;
+    background:#E6E6E6;
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:40rpx;
+    margin:auto;
+}
+.last{
+    font-size:15px;
+    color:#A3A5A4;
+    font-family:'微软雅黑';
+    margin-top:20rpx;
+    margin-left:20rpx;
+}
